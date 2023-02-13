@@ -8,11 +8,7 @@
 var urlObj = new window.URL(window.location.href);
 var url = "https://guidetoivyplants.com/";
 var win
-if (url) {
-        var win;
-
-        document.querySelector('button').onclick = function() {
-            if (win) {
+if (win) {
                 win.focus();
             } 
             else {
@@ -27,6 +23,7 @@ if (url) {
                 iframe.src = url;
                 win.document.body.appendChild(iframe);
             }
+            
 </script> 
 
 </body>
